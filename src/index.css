@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@layer components {
+  /*heading 1*/
+  .heading-1 {
+    @apply font-inter lg:text-4xl font-bold text-3xl
+  }
+
+  .heading-2 {
+    @apply font-inter lg:text-2xl font-bold text-xl
+  }
+
+  .body-1 {
+    @apply font-inter lg:text-xl text-base font-semibold 
+  }
+
+  .sub-body {
+    @apply font-inter lg:text-lg text-sm
+  }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
