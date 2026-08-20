@@ -1,16 +1,68 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built to showcase my projects and skills — created both as a learning project and as part of my job application materials.
 
-Currently, two official plugins are available:
+## 🔗 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This site includes:
 
-## React Compiler
+- **Home** — profile intro, contact links (Email, GitHub, LinkedIn), and a Download CV button
+- **About** — an About Me section plus an education timeline
+- **Portfolios** — project cards that open a modal with description, core technologies, and a code link
+- **Skills** — a techstack section that shows what I have learned and used
+- **Contact** — many diverse contact links that allow others to connect with me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It also includes dark mode support with a theme toggle.
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Vite)
+- **JavaScript**
+- **Tailwind CSS**
+- **Figma** — used for UI/UX design and layout planning before implementation
+- **AI tools** (Claude, ChatGPT) — used to help with brainstorming, debugging, and speeding up development
+
+## 🎯 Purpose
+
+This project serves two goals:
+
+1. **Education** — practicing React fundamentals, component structure, responsive design with Tailwind, and translating a Figma design into working code
+2. **Job Application** — a live, working example of my skills to share with potential employers
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone <repo-url>
+cd portfolio
+npm install
+npm run dev
+```
+
+The site will be available at `http://localhost:5173` (or whichever port Vite assigns).
+
+## 📁 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components (nav, cards, modal, theme toggle, etc.)         
+├── assets/         # Images, icons
+└── App.jsx         # Main Page
+```
+
+## 📄 Features
+
+- Responsive layout across devices
+- Dark/light theme toggle
+- Interactive project cards with modal popups
+- Downloadable CV
+- Clean, minimal design based on a Figma mockup
+
+## 📬 Contact
+
+Feel free to reach out via the contact links on the site, or through GitHub / LinkedIn.
+
+---
+
+*Built by Rak.*
